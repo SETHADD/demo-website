@@ -1,0 +1,100 @@
+* {
+    font-family: monospace;
+    line-height: 1.6;
+
+}
+
+body{
+    margin: auto;
+    width: 840px; 
+    padding: 5px;
+    color: black; 
+    background-image:url("https://media.istockphoto.com/id/492362277/photo/3d-yellow-taxi.jpg?s=612x612&w=0&k=20&c=RXoWaS8t0UrqGN0cFxrbLDROw_bThdCrh-lSYjWU5L0=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px 10px;
+    border-color: black;
+    margin-bottom: 400pt;
+    padding: 4pt 4pt 4pt 4pt;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+
+.logo{
+    display: block;
+    width: 25%;
+    margin: auto;
+    color: black;
+}
+
+nav{
+    display: flex;
+justify-content: right;
+color: black;
+}
+
+li{
+    display: inline;
+}
+
+
+a {
+    padding: 1px 1px 1px 1px;
+    text-decoration:none;
+    
+}
+
+
+h2{
+    font-size: 20px ;
+    font-weight: 400;
+}
+
+.downpix{
+    
+    width: 10%;
+    margin: auto;
+}
+
+.foot{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+footer{
+    background-color: whitesmoke;
+}
+
+.need{
+    display: flex;
+    justify-content: right;
+}
+
+.part{
+    border-radius: 15px 50px;
+    background: yellow;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: white;
+}
