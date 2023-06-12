@@ -62,3 +62,22 @@ if (ok > 18 && position === "england"){
 }
     } document.write(expect)
 }
+
+
+function stars(){
+    let many = prompt("from 1 to 5 how many stars will you give our site");
+    let i = 0;
+    while(i < many){
+        document.write(" <img height='50' width='50' alt='star' src='https://www.seekpng.com/png/detail/39-398530_clip-black-and-white-download-star-clip-art.png' >");
+        i++;
+    }
+}
+
+function displayRating() {
+    let output = "";
+    let rating = prompt("On a scale of 1 - 5, how much do you rate chris's haircut?");
+    for (let i = 0; i < rating; i++) {
+      output += "<img class='star-img' src='images/star.png' alt='star rating'>";
+    }
+    return document.write(output);
+  }
